@@ -129,7 +129,7 @@
           </Offsets>
           <Hotkeys>
             <Hotkey>
-              <Action>Toggle Activation</Action>
+              <Action>Activate</Action>
               <Keys>
                 <Key>17</Key>
                 <Key>70</Key>
@@ -219,6 +219,14 @@
               <Value>-24.69748688</Value>
               <ID>3</ID>
             </Hotkey>
+            <Hotkey>
+              <Action>Deactivate</Action>
+              <Keys>
+                <Key>16</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>4</ID>
+            </Hotkey>
           </Hotkeys>
         </CheatEntry>
         <CheatEntry>
@@ -237,7 +245,7 @@
           </Offsets>
           <Hotkeys>
             <Hotkey>
-              <Action>Toggle Activation</Action>
+              <Action>Activate</Action>
               <Keys>
                 <Key>17</Key>
                 <Key>70</Key>
@@ -327,6 +335,14 @@
               <Value>-391.7868958</Value>
               <ID>3</ID>
             </Hotkey>
+            <Hotkey>
+              <Action>Deactivate</Action>
+              <Keys>
+                <Key>16</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>4</ID>
+            </Hotkey>
           </Hotkeys>
         </CheatEntry>
         <CheatEntry>
@@ -345,7 +361,7 @@
           </Offsets>
           <Hotkeys>
             <Hotkey>
-              <Action>Toggle Activation</Action>
+              <Action>Activate</Action>
               <Keys>
                 <Key>17</Key>
                 <Key>70</Key>
@@ -434,6 +450,14 @@
               </Keys>
               <Value>3.00005722</Value>
               <ID>3</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Deactivate</Action>
+              <Keys>
+                <Key>16</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>4</ID>
             </Hotkey>
           </Hotkeys>
         </CheatEntry>
@@ -939,6 +963,72 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>38</ID>
+      <Description>"QoL Behaviour Toggles"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"Gravity"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84 C0:On
+90 90:Off
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF00FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>2</ByteLength>
+          <Address>00618108</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>71</Key>
+              </Keys>
+              <Value>90 90</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>16</Key>
+                <Key>71</Key>
+              </Keys>
+              <Value>84 C0</Value>
+              <ID>1</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"Fast Travel Anywhere"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">C6 41 38 01 C3:On
+8A 41 38 24 01:Off
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF00FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>5</ByteLength>
+          <Address>00C2FC20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"Corruption"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">E9 78 01 00 00 90:Disabled
+0F 84 77 01 00 00:Normal
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF00FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>6</ByteLength>
+          <Address>005922E1</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>35</ID>
       <Description>"Act 2 Booleans"</Description>
       <GroupHeader>1</GroupHeader>
@@ -946,8 +1036,8 @@
         <CheatEntry>
           <ID>36</ID>
           <Description>"Act 2 + DJ + Map"</Description>
-          <LastState Value="0" RealAddress="7F0107DC"/>
           <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
           <VariableType>Byte</VariableType>
           <Address>"PrinceOfPersia_Launcher.exe"+00B3C6C0</Address>
           <Offsets>
@@ -963,8 +1053,8 @@
         <CheatEntry>
           <ID>37</ID>
           <Description>"Act 2 + DJ"</Description>
-          <LastState Value="0" RealAddress="7FBA07DC"/>
           <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
           <VariableType>Byte</VariableType>
           <Address>"PrinceOfPersia_Launcher.exe"+00B2F1C8</Address>
           <Offsets>
