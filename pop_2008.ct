@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Light Seed"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Count"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00F37F64</Address>
+          <Offsets>
+            <Offset>DC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Icon"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B38130</Address>
+          <Offsets>
+            <Offset>3C</Offset>
+            <Offset>3C</Offset>
+            <Offset>10</Offset>
+            <Offset>10</Offset>
+            <Offset>18</Offset>
+            <Offset>10</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Plates"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"Red"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>3737FF</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>4</Offset>
+            <Offset>10</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"Blue"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF9A35</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>C</Offset>
+            <Offset>10</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Yellow"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>00FFFF</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>14</Offset>
+            <Offset>10</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Green"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>00FF00</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>10</Offset>
+            <Offset>10</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"Co-ordinates (Writable)"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"x"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF80FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00A45B04</Address>
+          <Offsets>
+            <Offset>30</Offset>
+            <Offset>B8</Offset>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>7BC</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>39</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>37</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>89</Key>
+              </Keys>
+              <Value>6</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>39</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>37</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>80</Key>
+              </Keys>
+              <Value>-400.9597473</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>49</Key>
+              </Keys>
+              <Value>6.005703449</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>50</Key>
+              </Keys>
+              <Value>31.73929596</Value>
+              <ID>2</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>51</Key>
+              </Keys>
+              <Value>-24.69748688</Value>
+              <ID>3</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"y"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF80FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00A45B04</Address>
+          <Offsets>
+            <Offset>34</Offset>
+            <Offset>B8</Offset>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>7BC</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>38</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>40</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>89</Key>
+              </Keys>
+              <Value>-174</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>38</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>40</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>80</Key>
+              </Keys>
+              <Value>-78.68972015</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>49</Key>
+              </Keys>
+              <Value>-423.4592285</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>50</Key>
+              </Keys>
+              <Value>-390.9072266</Value>
+              <ID>2</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>51</Key>
+              </Keys>
+              <Value>-391.7868958</Value>
+              <ID>3</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"z"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF80FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00A45B04</Address>
+          <Offsets>
+            <Offset>38</Offset>
+            <Offset>B8</Offset>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>7BC</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>34</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>33</Key>
+              </Keys>
+              <Value>5</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>89</Key>
+              </Keys>
+              <Value>-49</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>33</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>34</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>80</Key>
+              </Keys>
+              <Value>25.15996552</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>49</Key>
+              </Keys>
+              <Value>-32.99993896</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>50</Key>
+              </Keys>
+              <Value>-16.99994278</Value>
+              <ID>2</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>51</Key>
+              </Keys>
+              <Value>3.00005722</Value>
+              <ID>3</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"Teleport to Load"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00 80 B0 C3 00 00 B3 C3 00 00 C0 C1:AI Break
+00 80 96 C3 00 00 3B C3 00 00 E0 C1:Collapsed Bridge
+00 00 73 C3 00 00 23 C3 00 00 E0 C1:Barrier Skip
+00 00 2C C3 00 00 0E C3 00 00 14 C2:Canyon - Desert
+00 00 E0 40 00 80 B2 C3 00 00 E8 C1:Inner Door
+00 00 E0 40 00 00 9B C3 00 00 00 C2:Mid-Corridor
+00 00 E0 40 00 00 82 C3 00 00 00 C2:Outer Door
+00 00 C0 40 00 00 2E C3 00 00 44 C2:Outer Temple
+00 00 52 C3 00 00 80 40 00 00 2C C2:Temple - Desert Left Junction
+00 00 81 C3 00 00 20 41 00 00 D8 C1:Desert Left Junction - Temple
+00 00 80 C0 00 00 9C 42 00 00 28 C2:Temple - Desert Middle Junction
+00 00 00 00 00 00 D6 42 00 00 90 C1:Desert Middle Junction - Temple
+00 00 5D 43 00 00 00 C0 00 00 38 C2:Temple - Desert Right Junction
+00 00 81 43 00 00 C0 40 00 00 90 C1:Desert Right Junction - Temple
+00 00 A5 C3 00 00 80 BF 00 00 20 C1:Desert Left Junction - King's Gate
+00 00 B5 C3 00 00 64 C2 00 00 30 41:King's Gate - Desert Left Junction
+00 00 EA C3 00 00 AC C2 00 00 C8 41:King's Gate - Sun Temple
+00 40 09 C4 00 00 50 C2 00 00 20 41:Sun Temple - King's Gate
+00 40 0C C4 00 00 08 42 00 00 30 41:Sun Temple - Martyrs' Tower
+00 40 08 C4 00 00 E6 42 00 00 40 41:Martyrs' Tower - Sun Temple
+00 C0 25 C4 00 00 60 C2 00 00 30 41:Sun Temple - Marshalling Grounds
+00 C0 36 C4 00 00 80 C2 00 00 20 41:Marshalling Grounds - Sun Temple
+00 C0 49 C4 00 00 A0 41 00 00 80 41:Marshalling Grounds - Windmills
+00 80 49 C4 00 00 D0 42 00 00 90 41:Windmills - Marshalling Grounds
+00 00 4A C4 00 00 52 43 00 00 F0 41:Windmills - Hunter's Lair
+00 C0 62 C4 00 80 81 43 00 00 30 C1:Hunter's Lair - Windmills
+00 40 32 C4 00 00 4D 43 00 00 B0 41:Windmills - Martyrs' Tower
+00 80 1D C4 00 00 4B 43 00 00 B0 41:Martyrs' Tower - Windmills
+00 00 04 C4 00 00 6D 43 00 00 C8 41:Martyrs' Tower - Machinery Ground
+00 00 EA C3 00 00 C6 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 FD C3 00 00 A8 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 82 C3 00 00 96 42 00 00 A0 C1:Desert Left Junction - Cauldron
+00 00 4D C3 00 00 03 43 00 00 A0 C0:Cauldron - Desert Left Junction
+00 00 90 C1 00 00 1A 43 00 00 50 C1:Desert Middle Junction - Cauldron
+00 00 CA C2 00 00 24 43 00 00 30 C1:Cauldron - Desert Middle Junction
+00 00 09 C3 00 00 73 43 00 00 00 C1:Cauldron - Construction Yard
+00 00 36 C3 00 00 9A 43 00 00 F0 41:Construction Yard - Cauldron
+00 00 0D C3 00 80 D2 43 00 00 10 42:Construction Yard - Reservoir
+00 00 06 C3 00 00 03 44 00 00 2C 42:Reservoir - Construction Yard
+00 80 8B C3 00 00 A3 43 00 00 98 41:Construction Yard - Machinery Ground
+00 00 AD C3 00 80 BE 43 00 00 98 41:Machinery Ground - Construction Yard
+00 80 B5 C3 00 00 EF 43 00 00 70 41:Machinery Ground - Heaven's Stair
+00 80 A7 C3 00 40 06 44 00 00 60 41:Heaven's Stair - Machinery Ground
+00 00 85 C3 00 C0 1A 44 00 00 12 43:Heaven's Stair - Observatory
+00 80 9B C3 00 80 1E 44 00 00 5C 43:Observatory - Heaven's Stair
+00 00 76 C3 00 00 1E 44 00 00 A0 41:Heaven's Stair - Reservoir
+00 00 0B C3 00 40 1E 44 00 00 D8 41:Reservoir - Heaven's Stair
+00 00 68 C2 00 00 05 44 00 00 24 42:Reservoir - Spire of Dreams
+00 00 10 42 00 00 06 44 00 00 70 42:Reservoir - Spire of Dreams
+00 00 00 43 00 80 05 44 00 00 3C 42:Spire of Dreams - Reservoir
+00 00 34 42 00 00 1F 43 00 00 88 C1:Desert Middle Junction - Cavern
+00 00 AA 42 00 00 39 43 00 00 10 C1:Cavern - Desert Middle Junction
+00 00 74 43 00 00 9A 42 00 00 50 C1:Desert Right Junction - Cavern
+00 00 56 43 00 00 1E 43 00 00 50 C1:Cavern - Desert Right Junction
+00 00 24 43 00 00 7C 43 00 00 00 40:Cavern - Royal Gardens
+00 00 6E 43 00 00 99 43 00 00 E0 41:Royal Gardens - Cavern
+00 80 A0 43 00 80 BC 43 00 00 E0 41:Royal Gardens - Royal Spire
+00 80 C7 43 00 80 C4 43 00 00 00 42:Royal Spire - Royal Gardens
+00 00 50 43 00 00 C3 43 00 00 E0 41:Royal Gardens - Spire of Dreams
+00 00 34 43 00 80 EC 43 00 00 D8 41:Spire of Dreams - Royal Gardens
+00 00 53 43 00 C0 0E 44 00 00 0C 42:Spire of Dreams - Coronation Hall
+00 00 94 43 00 80 19 44 00 00 08 42:Coronation Hall - Spire of Dreams
+00 80 AE 43 00 00 27 44 00 00 10 42:Coronation Hall - Palace Rooms
+00 80 A9 43 00 C0 34 44 00 00 28 42:Palace Rooms - Coronation Hall
+00 00 C3 43 00 80 09 44 00 00 0C 42:Coronation Hall - Royal Spire
+00 80 D8 43 00 00 ED 43 00 00 0C 42:Royal Spire - Coronation Hall
+00 00 F2 43 00 80 D2 43 00 00 08 42:Royal Spire - Tower of Ormazd
+00 40 07 44 00 80 BD 43 00 00 30 41:Royal Spire - Tower of Ormazd
+00 00 20 44 00 80 97 43 00 00 B0 C1:Tower of Ormazd - Royal Spire
+00 00 21 44 00 00 76 43 00 00 F0 C1:Tower of Ormazd - Royal Spire
+00 00 B9 43 00 00 80 40 00 00 88 C1:Desert Right Junction - City Gate
+00 80 99 43 00 00 E0 41 00 00 00 00:City Gate - Desert Right Junction
+00 00 F0 43 00 00 F0 C1 00 00 90 C1:City Gate - Tower of Ahriman
+00 80 09 44 00 00 00 00 00 00 08 C2:Tower of Ahriman - City Gate
+00 00 20 44 00 00 88 41 00 00 F8 C1:Tower of Ahriman - Queen's Tower
+00 80 3B 44 00 00 10 C2 00 00 10 C2:Queen's Tower - Tower of Ahriman
+00 C0 17 44 00 00 68 42 00 00 10 C2:Tower of Ahriman - Tower of Ormazd
+00 40 1F 44 00 00 1A 43 00 00 F0 C1:Tower of Ormazd - Tower of Ahriman
+00 40 31 44 00 00 3A 43 00 00 18 C2:Tower of Ormazd - City of Light
+00 00 45 44 00 00 28 43 00 00 14 C2:City of Light - Tower of Ormazd
+00 80 68 44 00 00 33 43 00 00 10 C1:City of Light - Warrior's Fortress
+00 C0 76 44 00 80 87 43 00 00 A0 C0:Warrior's Fortress - City of Light
+00 C0 57 44 00 00 74 42 00 00 00 C2:City of Light - Queen's Tower
+00 80 58 44 00 00 80 C0 00 00 04 C2:Queen's Tower - City of Light
+00 00 68 C2 00 80 E8 C3 00 00 33 C3:Red Plate
+00 00 34 42 00 80 EB C3 00 00 33 C3:Blue Plate
+00 00 03 C3 00 80 FB C3 00 00 33 C3:Yellow Plate
+00 00 14 43 00 00 EA C3 00 00 0C C3:Green Plate
+00 00 C0 40 00 00 17 C4 00 00 3A C3:Last Realm
+00 00 00 40 00 80 24 C4 00 00 43 C3:Last Realm
+*:Select Load to TP
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF80FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>12</ByteLength>
+          <Address>"PrinceOfPersia_Launcher.exe"+00A45B04</Address>
+          <Offsets>
+            <Offset>30</Offset>
+            <Offset>B8</Offset>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>7BC</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Safe Spot Co-ords"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"x"</Description>
+          <Color>80FF80</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37F68</Address>
+          <Offsets>
+            <Offset>C70</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"y"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF80</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37F68</Address>
+          <Offsets>
+            <Offset>C74</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"z"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF80</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37F68</Address>
+          <Offsets>
+            <Offset>C78</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"Set at Load"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00 80 B0 C3 00 00 B3 C3 00 00 C0 C1:AI Break
+00 80 96 C3 00 00 3B C3 00 00 E0 C1:Collapsed Bridge
+00 00 73 C3 00 00 23 C3 00 00 E0 C1:Barrier Skip
+00 00 2C C3 00 00 0E C3 00 00 14 C2:Canyon - Desert
+00 00 E0 40 00 80 B2 C3 00 00 E8 C1:Inner Door
+00 00 E0 40 00 00 9B C3 00 00 00 C2:Mid-Corridor
+00 00 E0 40 00 00 82 C3 00 00 00 C2:Outer Door
+00 00 C0 40 00 00 2E C3 00 00 44 C2:Outer Temple
+00 00 52 C3 00 00 80 40 00 00 2C C2:Temple - Desert Left Junction
+00 00 81 C3 00 00 20 41 00 00 D8 C1:Desert Left Junction - Temple
+00 00 80 C0 00 00 9C 42 00 00 28 C2:Temple - Desert Middle Junction
+00 00 00 00 00 00 D6 42 00 00 90 C1:Desert Middle Junction - Temple
+00 00 5D 43 00 00 00 C0 00 00 38 C2:Temple - Desert Right Junction
+00 00 81 43 00 00 C0 40 00 00 90 C1:Desert Right Junction - Temple
+00 00 A5 C3 00 00 80 BF 00 00 20 C1:Desert Left Junction - King's Gate
+00 00 B5 C3 00 00 64 C2 00 00 30 41:King's Gate - Desert Left Junction
+00 00 EA C3 00 00 AC C2 00 00 C8 41:King's Gate - Sun Temple
+00 40 09 C4 00 00 50 C2 00 00 20 41:Sun Temple - King's Gate
+00 40 0C C4 00 00 08 42 00 00 30 41:Sun Temple - Martyrs' Tower
+00 40 08 C4 00 00 E6 42 00 00 40 41:Martyrs' Tower - Sun Temple
+00 C0 25 C4 00 00 60 C2 00 00 30 41:Sun Temple - Marshalling Grounds
+00 C0 36 C4 00 00 80 C2 00 00 20 41:Marshalling Grounds - Sun Temple
+00 C0 49 C4 00 00 A0 41 00 00 80 41:Marshalling Grounds - Windmills
+00 80 49 C4 00 00 D0 42 00 00 90 41:Windmills - Marshalling Grounds
+00 00 4A C4 00 00 52 43 00 00 F0 41:Windmills - Hunter's Lair
+00 C0 62 C4 00 80 81 43 00 00 30 C1:Hunter's Lair - Windmills
+00 40 32 C4 00 00 4D 43 00 00 B0 41:Windmills - Martyrs' Tower
+00 80 1D C4 00 00 4B 43 00 00 B0 41:Martyrs' Tower - Windmills
+00 00 04 C4 00 00 6D 43 00 00 C8 41:Martyrs' Tower - Machinery Ground
+00 00 EA C3 00 00 C6 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 FD C3 00 00 A8 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 82 C3 00 00 96 42 00 00 A0 C1:Desert Left Junction - Cauldron
+00 00 4D C3 00 00 03 43 00 00 A0 C0:Cauldron - Desert Left Junction
+00 00 90 C1 00 00 1A 43 00 00 50 C1:Desert Middle Junction - Cauldron
+00 00 CA C2 00 00 24 43 00 00 30 C1:Cauldron - Desert Middle Junction
+00 00 09 C3 00 00 73 43 00 00 00 C1:Cauldron - Construction Yard
+00 00 36 C3 00 00 9A 43 00 00 F0 41:Construction Yard - Cauldron
+00 00 0D C3 00 80 D2 43 00 00 10 42:Construction Yard - Reservoir
+00 00 06 C3 00 00 03 44 00 00 2C 42:Reservoir - Construction Yard
+00 80 8B C3 00 00 A3 43 00 00 98 41:Construction Yard - Machinery Ground
+00 00 AD C3 00 80 BE 43 00 00 98 41:Machinery Ground - Construction Yard
+00 80 B5 C3 00 00 EF 43 00 00 70 41:Machinery Ground - Heaven's Stair
+00 80 A7 C3 00 40 06 44 00 00 60 41:Heaven's Stair - Machinery Ground
+00 00 85 C3 00 C0 1A 44 00 00 12 43:Heaven's Stair - Observatory
+00 80 9B C3 00 80 1E 44 00 00 5C 43:Observatory - Heaven's Stair
+00 00 76 C3 00 00 1E 44 00 00 A0 41:Heaven's Stair - Reservoir
+00 00 0B C3 00 40 1E 44 00 00 D8 41:Reservoir - Heaven's Stair
+00 00 68 C2 00 00 05 44 00 00 24 42:Reservoir - Spire of Dreams
+00 00 10 42 00 00 06 44 00 00 70 42:Reservoir - Spire of Dreams
+00 00 00 43 00 80 05 44 00 00 3C 42:Spire of Dreams - Reservoir
+00 00 34 42 00 00 1F 43 00 00 88 C1:Desert Middle Junction - Cavern
+00 00 AA 42 00 00 39 43 00 00 10 C1:Cavern - Desert Middle Junction
+00 00 74 43 00 00 9A 42 00 00 50 C1:Desert Right Junction - Cavern
+00 00 56 43 00 00 1E 43 00 00 50 C1:Cavern - Desert Right Junction
+00 00 24 43 00 00 7C 43 00 00 00 40:Cavern - Royal Gardens
+00 00 6E 43 00 00 99 43 00 00 E0 41:Royal Gardens - Cavern
+00 80 A0 43 00 80 BC 43 00 00 E0 41:Royal Gardens - Royal Spire
+00 80 C7 43 00 80 C4 43 00 00 00 42:Royal Spire - Royal Gardens
+00 00 50 43 00 00 C3 43 00 00 E0 41:Royal Gardens - Spire of Dreams
+00 00 34 43 00 80 EC 43 00 00 D8 41:Spire of Dreams - Royal Gardens
+00 00 53 43 00 C0 0E 44 00 00 0C 42:Spire of Dreams - Coronation Hall
+00 00 94 43 00 80 19 44 00 00 08 42:Coronation Hall - Spire of Dreams
+00 80 AE 43 00 00 27 44 00 00 10 42:Coronation Hall - Palace Rooms
+00 80 A9 43 00 C0 34 44 00 00 28 42:Palace Rooms - Coronation Hall
+00 00 C3 43 00 80 09 44 00 00 0C 42:Coronation Hall - Royal Spire
+00 80 D8 43 00 00 ED 43 00 00 0C 42:Royal Spire - Coronation Hall
+00 00 F2 43 00 80 D2 43 00 00 08 42:Royal Spire - Tower of Ormazd
+00 40 07 44 00 80 BD 43 00 00 30 41:Royal Spire - Tower of Ormazd
+00 00 20 44 00 80 97 43 00 00 B0 C1:Tower of Ormazd - Royal Spire
+00 00 21 44 00 00 76 43 00 00 F0 C1:Tower of Ormazd - Royal Spire
+00 00 B9 43 00 00 80 40 00 00 88 C1:Desert Right Junction - City Gate
+00 80 99 43 00 00 E0 41 00 00 00 00:City Gate - Desert Right Junction
+00 00 F0 43 00 00 F0 C1 00 00 90 C1:City Gate - Tower of Ahriman
+00 80 09 44 00 00 00 00 00 00 08 C2:Tower of Ahriman - City Gate
+00 00 20 44 00 00 88 41 00 00 F8 C1:Tower of Ahriman - Queen's Tower
+00 80 3B 44 00 00 10 C2 00 00 10 C2:Queen's Tower - Tower of Ahriman
+00 C0 17 44 00 00 68 42 00 00 10 C2:Tower of Ahriman - Tower of Ormazd
+00 40 1F 44 00 00 1A 43 00 00 F0 C1:Tower of Ormazd - Tower of Ahriman
+00 40 31 44 00 00 3A 43 00 00 18 C2:Tower of Ormazd - City of Light
+00 00 45 44 00 00 28 43 00 00 14 C2:City of Light - Tower of Ormazd
+00 80 68 44 00 00 33 43 00 00 10 C1:City of Light - Warrior's Fortress
+00 C0 76 44 00 80 87 43 00 00 A0 C0:Warrior's Fortress - City of Light
+00 C0 57 44 00 00 74 42 00 00 00 C2:City of Light - Queen's Tower
+00 80 58 44 00 00 80 C0 00 00 04 C2:Queen's Tower - City of Light
+00 00 68 C2 00 80 E8 C3 00 00 33 C3:Red Plate
+00 00 34 42 00 80 EB C3 00 00 33 C3:Blue Plate
+00 00 03 C3 00 80 FB C3 00 00 33 C3:Yellow Plate
+00 00 14 43 00 00 EA C3 00 00 0C C3:Green Plate
+00 00 C0 40 00 00 17 C4 00 00 3A C3:Last Realm
+00 00 00 40 00 80 24 C4 00 00 43 C3:Last Realm
+*:Select Load to set at
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80FF80</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>12</ByteLength>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37F68</Address>
+          <Offsets>
+            <Offset>C70</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Death Storage"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"d storage"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Yes
+1:No
+*:??
+</DropDownList>
+          <Color>80FFFF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B30D08</Address>
+          <Offsets>
+            <Offset>1768</Offset>
+            <Offset>C</Offset>
+            <Offset>50</Offset>
+            <Offset>1C</Offset>
+            <Offset>48</Offset>
+            <Offset>104</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"c storage"</Description>
+          <Color>80FFFF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B30D08</Address>
+          <Offsets>
+            <Offset>6D8</Offset>
+            <Offset>24</Offset>
+            <Offset>4</Offset>
+            <Offset>44</Offset>
+            <Offset>60</Offset>
+            <Offset>80</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Combat"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"Combat State"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+2:Yes
+*:??
+</DropDownList>
+          <Color>FFFF80</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00F37F6C</Address>
+          <Offsets>
+            <Offset>7CC</Offset>
+            <Offset>C</Offset>
+            <Offset>1C</Offset>
+            <Offset>E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Enemy Health"</Description>
+          <Color>FFFF80</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00F38130</Address>
+          <Offsets>
+            <Offset>250</Offset>
+            <Offset>8</Offset>
+            <Offset>60</Offset>
+            <Offset>444</Offset>
+            <Offset>4E4</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>73</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Ledge Storage (unstable)"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"x"</Description>
+          <Color>8080FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Offsets>
+            <Offset>570</Offset>
+            <Offset>3C</Offset>
+            <Offset>14</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"y"</Description>
+          <Color>8080FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Offsets>
+            <Offset>574</Offset>
+            <Offset>3C</Offset>
+            <Offset>14</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"z"</Description>
+          <Color>8080FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Offsets>
+            <Offset>578</Offset>
+            <Offset>3C</Offset>
+            <Offset>14</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"Set at Load"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00 80 B0 C3 00 00 B3 C3 00 00 C0 C1:AI Break
+00 80 96 C3 00 00 3B C3 00 00 E0 C1:Collapsed Bridge
+00 00 73 C3 00 00 23 C3 00 00 E0 C1:Barrier Skip
+00 00 2C C3 00 00 0E C3 00 00 14 C2:Canyon - Desert
+00 00 E0 40 00 80 B2 C3 00 00 E8 C1:Inner Door
+00 00 E0 40 00 00 9B C3 00 00 00 C2:Mid-Corridor
+00 00 E0 40 00 00 82 C3 00 00 00 C2:Outer Door
+00 00 C0 40 00 00 2E C3 00 00 44 C2:Outer Temple
+00 00 52 C3 00 00 80 40 00 00 2C C2:Temple - Desert Left Junction
+00 00 81 C3 00 00 20 41 00 00 D8 C1:Desert Left Junction - Temple
+00 00 80 C0 00 00 9C 42 00 00 28 C2:Temple - Desert Middle Junction
+00 00 00 00 00 00 D6 42 00 00 90 C1:Desert Middle Junction - Temple
+00 00 5D 43 00 00 00 C0 00 00 38 C2:Temple - Desert Right Junction
+00 00 81 43 00 00 C0 40 00 00 90 C1:Desert Right Junction - Temple
+00 00 A5 C3 00 00 80 BF 00 00 20 C1:Desert Left Junction - King's Gate
+00 00 B5 C3 00 00 64 C2 00 00 30 41:King's Gate - Desert Left Junction
+00 00 EA C3 00 00 AC C2 00 00 C8 41:King's Gate - Sun Temple
+00 40 09 C4 00 00 50 C2 00 00 20 41:Sun Temple - King's Gate
+00 40 0C C4 00 00 08 42 00 00 30 41:Sun Temple - Martyrs' Tower
+00 40 08 C4 00 00 E6 42 00 00 40 41:Martyrs' Tower - Sun Temple
+00 C0 25 C4 00 00 60 C2 00 00 30 41:Sun Temple - Marshalling Grounds
+00 C0 36 C4 00 00 80 C2 00 00 20 41:Marshalling Grounds - Sun Temple
+00 C0 49 C4 00 00 A0 41 00 00 80 41:Marshalling Grounds - Windmills
+00 80 49 C4 00 00 D0 42 00 00 90 41:Windmills - Marshalling Grounds
+00 00 4A C4 00 00 52 43 00 00 F0 41:Windmills - Hunter's Lair
+00 C0 62 C4 00 80 81 43 00 00 30 C1:Hunter's Lair - Windmills
+00 40 32 C4 00 00 4D 43 00 00 B0 41:Windmills - Martyrs' Tower
+00 80 1D C4 00 00 4B 43 00 00 B0 41:Martyrs' Tower - Windmills
+00 00 04 C4 00 00 6D 43 00 00 C8 41:Martyrs' Tower - Machinery Ground
+00 00 EA C3 00 00 C6 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 FD C3 00 00 A8 43 00 00 D0 41:Machinery Ground - Martyrs' Tower
+00 00 82 C3 00 00 96 42 00 00 A0 C1:Desert Left Junction - Cauldron
+00 00 4D C3 00 00 03 43 00 00 A0 C0:Cauldron - Desert Left Junction
+00 00 90 C1 00 00 1A 43 00 00 50 C1:Desert Middle Junction - Cauldron
+00 00 CA C2 00 00 24 43 00 00 30 C1:Cauldron - Desert Middle Junction
+00 00 09 C3 00 00 73 43 00 00 00 C1:Cauldron - Construction Yard
+00 00 36 C3 00 00 9A 43 00 00 F0 41:Construction Yard - Cauldron
+00 00 0D C3 00 80 D2 43 00 00 10 42:Construction Yard - Reservoir
+00 00 06 C3 00 00 03 44 00 00 2C 42:Reservoir - Construction Yard
+00 80 8B C3 00 00 A3 43 00 00 98 41:Construction Yard - Machinery Ground
+00 00 AD C3 00 80 BE 43 00 00 98 41:Machinery Ground - Construction Yard
+00 80 B5 C3 00 00 EF 43 00 00 70 41:Machinery Ground - Heaven's Stair
+00 80 A7 C3 00 40 06 44 00 00 60 41:Heaven's Stair - Machinery Ground
+00 00 85 C3 00 C0 1A 44 00 00 12 43:Heaven's Stair - Observatory
+00 80 9B C3 00 80 1E 44 00 00 5C 43:Observatory - Heaven's Stair
+00 00 76 C3 00 00 1E 44 00 00 A0 41:Heaven's Stair - Reservoir
+00 00 0B C3 00 40 1E 44 00 00 D8 41:Reservoir - Heaven's Stair
+00 00 68 C2 00 00 05 44 00 00 24 42:Reservoir - Spire of Dreams
+00 00 10 42 00 00 06 44 00 00 70 42:Reservoir - Spire of Dreams
+00 00 00 43 00 80 05 44 00 00 3C 42:Spire of Dreams - Reservoir
+00 00 34 42 00 00 1F 43 00 00 88 C1:Desert Middle Junction - Cavern
+00 00 AA 42 00 00 39 43 00 00 10 C1:Cavern - Desert Middle Junction
+00 00 74 43 00 00 9A 42 00 00 50 C1:Desert Right Junction - Cavern
+00 00 56 43 00 00 1E 43 00 00 50 C1:Cavern - Desert Right Junction
+00 00 24 43 00 00 7C 43 00 00 00 40:Cavern - Royal Gardens
+00 00 6E 43 00 00 99 43 00 00 E0 41:Royal Gardens - Cavern
+00 80 A0 43 00 80 BC 43 00 00 E0 41:Royal Gardens - Royal Spire
+00 80 C7 43 00 80 C4 43 00 00 00 42:Royal Spire - Royal Gardens
+00 00 50 43 00 00 C3 43 00 00 E0 41:Royal Gardens - Spire of Dreams
+00 00 34 43 00 80 EC 43 00 00 D8 41:Spire of Dreams - Royal Gardens
+00 00 53 43 00 C0 0E 44 00 00 0C 42:Spire of Dreams - Coronation Hall
+00 00 94 43 00 80 19 44 00 00 08 42:Coronation Hall - Spire of Dreams
+00 80 AE 43 00 00 27 44 00 00 10 42:Coronation Hall - Palace Rooms
+00 80 A9 43 00 C0 34 44 00 00 28 42:Palace Rooms - Coronation Hall
+00 00 C3 43 00 80 09 44 00 00 0C 42:Coronation Hall - Royal Spire
+00 80 D8 43 00 00 ED 43 00 00 0C 42:Royal Spire - Coronation Hall
+00 00 F2 43 00 80 D2 43 00 00 08 42:Royal Spire - Tower of Ormazd
+00 40 07 44 00 80 BD 43 00 00 30 41:Royal Spire - Tower of Ormazd
+00 00 20 44 00 80 97 43 00 00 B0 C1:Tower of Ormazd - Royal Spire
+00 00 21 44 00 00 76 43 00 00 F0 C1:Tower of Ormazd - Royal Spire
+00 00 B9 43 00 00 80 40 00 00 88 C1:Desert Right Junction - City Gate
+00 80 99 43 00 00 E0 41 00 00 00 00:City Gate - Desert Right Junction
+00 00 F0 43 00 00 F0 C1 00 00 90 C1:City Gate - Tower of Ahriman
+00 80 09 44 00 00 00 00 00 00 08 C2:Tower of Ahriman - City Gate
+00 00 20 44 00 00 88 41 00 00 F8 C1:Tower of Ahriman - Queen's Tower
+00 80 3B 44 00 00 10 C2 00 00 10 C2:Queen's Tower - Tower of Ahriman
+00 C0 17 44 00 00 68 42 00 00 10 C2:Tower of Ahriman - Tower of Ormazd
+00 40 1F 44 00 00 1A 43 00 00 F0 C1:Tower of Ormazd - Tower of Ahriman
+00 40 31 44 00 00 3A 43 00 00 18 C2:Tower of Ormazd - City of Light
+00 00 45 44 00 00 28 43 00 00 14 C2:City of Light - Tower of Ormazd
+00 80 68 44 00 00 33 43 00 00 10 C1:City of Light - Warrior's Fortress
+00 C0 76 44 00 80 87 43 00 00 A0 C0:Warrior's Fortress - City of Light
+00 C0 57 44 00 00 74 42 00 00 00 C2:City of Light - Queen's Tower
+00 80 58 44 00 00 80 C0 00 00 04 C2:Queen's Tower - City of Light
+00 00 68 C2 00 80 E8 C3 00 00 33 C3:Red Plate
+00 00 34 42 00 80 EB C3 00 00 33 C3:Blue Plate
+00 00 03 C3 00 80 FB C3 00 00 33 C3:Yellow Plate
+00 00 14 43 00 00 EA C3 00 00 0C C3:Green Plate
+00 00 C0 40 00 00 17 C4 00 00 3A C3:Last Realm
+00 00 00 40 00 80 24 C4 00 00 43 C3:Last Realm
+*:Select Load to set at
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>8080FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>12</ByteLength>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Offsets>
+            <Offset>570</Offset>
+            <Offset>3C</Offset>
+            <Offset>14</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"Seed Requirements"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"Seeds Needed 1"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Seeds Needed 2"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>1C</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"Seeds Needed 3"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>20</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"Seeds Needed 4"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B0E808</Address>
+          <Offsets>
+            <Offset>24</Offset>
+            <Offset>20</Offset>
+            <Offset>18</Offset>
+            <Offset>58</Offset>
+            <Offset>84</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
