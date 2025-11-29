@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="46">
+<CheatTable CheatEngineTableVersion="42">
   <CheatEntries>
     <CheatEntry>
       <ID>0</ID>
@@ -1001,7 +1001,7 @@
           </Hotkeys>
         </CheatEntry>
         <CheatEntry>
-          <ID>40</ID>
+          <ID>42</ID>
           <Description>"Fast Travel Anywhere"</Description>
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">C6 41 38 01 C3:On
 8A 41 38 24 01:Off
@@ -1012,6 +1012,31 @@
           <VariableType>Array of byte</VariableType>
           <ByteLength>5</ByteLength>
           <Address>00C2FC20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"Heal any FG"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">C6 80 32 01 00 00 01:On
+80 B8 32 01 00 00 00:Off
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF00FF</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>7</ByteLength>
+          <Address>0076E6AD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"Instant Heal FG"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">A8:On
+A4:Off
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF00FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>005BDDBB</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>41</ID>
