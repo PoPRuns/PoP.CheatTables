@@ -1003,15 +1003,14 @@
         <CheatEntry>
           <ID>42</ID>
           <Description>"Fast Travel Anywhere"</Description>
-          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">C6 41 38 01 C3:On
-8A 41 38 24 01:Off
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">16:On
+04:Off
 </DropDownList>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>FF00FF</Color>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>5</ByteLength>
-          <Address>00C2FC20</Address>
+          <VariableType>Byte</VariableType>
+          <Address>00C2FC33</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>40</ID>
