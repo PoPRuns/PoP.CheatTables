@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="42">
+<CheatTable CheatEngineTableVersion="46">
   <CheatEntries>
     <CheatEntry>
       <ID>0</ID>
@@ -1051,6 +1051,37 @@ A4:Off
           <ByteLength>6</ByteLength>
           <Address>005922E1</Address>
         </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"Debug Menu"</Description>
+          <Color>FF00FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+// finding "Combo List" structure in memory and overriding it to say "Debug Menu"
+aobScanRegion(StringResourceAddr, 0x60000000, 0x90000000, 34 01 DA 0F B0 E7 ?? ?? CC B9 ?? ?? 00 00 00 00)
+registersymbol(StringResourceAddr)
+
+[StringResourceAddr+10]:
+  db 44 00 65 00 62 00 75 00 67 00 20 00 4D 00 65 00 6E 00 75 00 00 00
+
+"PrinceOfPersia_Launcher.exe"+955F94:
+  dd "PrinceOfPersia_Launcher.exe"+2955C0 // instantiates the debug menu
+  dd "PrinceOfPersia_Launcher.exe"+29C2F0 // input processing and UI updates
+  dd "PrinceOfPersia_Launcher.exe"+295630 // closes debug menu
+
+[DISABLE]
+// swap back to original combo list
+[StringResourceAddr+10]:
+  db 43 00 6F 00 6D 00 62 00 6F 00 20 00 4C 00 69 00 73 00 74 00 00 00
+
+unregistersymbol(StringResourceAddr)
+
+"PrinceOfPersia_Launcher.exe"+955F94:
+  dd "PrinceOfPersia_Launcher.exe"+295930
+  dd "PrinceOfPersia_Launcher.exe"+29C570
+  dd "PrinceOfPersia_Launcher.exe"+2959A0
+</AssemblerScript>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -1158,5 +1189,10 @@ A4:Off
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
-  <UserdefinedSymbols/>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>speedhack_wantedspeed</Name>
+      <Address>1810000</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
 </CheatTable>
