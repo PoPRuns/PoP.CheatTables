@@ -814,47 +814,53 @@
     </CheatEntry>
     <CheatEntry>
       <ID>22</ID>
-      <Description>"Ledge Storage (unstable)"</Description>
+      <Description>"Ledge Storage"</Description>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>23</ID>
+          <ID>55</ID>
           <Description>"x"</Description>
           <Color>8080FF</Color>
           <VariableType>Float</VariableType>
-          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37E38</Address>
           <Offsets>
-            <Offset>570</Offset>
-            <Offset>3C</Offset>
-            <Offset>14</Offset>
+            <Offset>5110</Offset>
+            <Offset>1CD8</Offset>
+            <Offset>48</Offset>
+            <Offset>104</Offset>
+            <Offset>84</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>24</ID>
+          <ID>56</ID>
           <Description>"y"</Description>
           <Color>8080FF</Color>
           <VariableType>Float</VariableType>
-          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37E38</Address>
           <Offsets>
-            <Offset>574</Offset>
-            <Offset>3C</Offset>
-            <Offset>14</Offset>
+            <Offset>5114</Offset>
+            <Offset>1CD8</Offset>
+            <Offset>48</Offset>
+            <Offset>104</Offset>
+            <Offset>84</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>25</ID>
+          <ID>57</ID>
           <Description>"z"</Description>
           <Color>8080FF</Color>
           <VariableType>Float</VariableType>
-          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37E38</Address>
           <Offsets>
-            <Offset>578</Offset>
-            <Offset>3C</Offset>
-            <Offset>14</Offset>
+            <Offset>5118</Offset>
+            <Offset>1CD8</Offset>
+            <Offset>48</Offset>
+            <Offset>104</Offset>
+            <Offset>84</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>26</ID>
+          <ID>58</ID>
           <Description>"Set at Load"</Description>
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00 80 B0 C3 00 00 B3 C3 00 00 C0 C1:AI Break
 00 80 96 C3 00 00 3B C3 00 00 E0 C1:Collapsed Bridge
@@ -953,11 +959,13 @@
           <Color>8080FF</Color>
           <VariableType>Array of byte</VariableType>
           <ByteLength>12</ByteLength>
-          <Address>"PrinceOfPersia_Launcher.exe"+00B98E48</Address>
+          <Address>"PrinceOfPersia_Launcher.exe"+00B37E38</Address>
           <Offsets>
-            <Offset>570</Offset>
-            <Offset>3C</Offset>
-            <Offset>14</Offset>
+            <Offset>5110</Offset>
+            <Offset>1CD8</Offset>
+            <Offset>48</Offset>
+            <Offset>104</Offset>
+            <Offset>84</Offset>
           </Offsets>
         </CheatEntry>
       </CheatEntries>
@@ -1191,7 +1199,7 @@ unregistersymbol(StringResourceAddr)
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>speedhack_wantedspeed</Name>
-      <Address>1810000</Address>
+      <Address>23D50000</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
 </CheatTable>
